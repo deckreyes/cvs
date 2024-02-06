@@ -1,0 +1,27 @@
+.contenttitlenav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    color: gray; 
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+
+.contenttitlenav div:nth-child(2) {
+    padding-right: 300px;
+ }
+
+ .contenttitlenav div:nth-child(3) {
+  font-size: 15px;
+  color: grey;
+  padding-left: 100px;
+  padding-right: 75px;
+ }
+
+.contenttitlenav div:nth-child(4) {
+  font-size: 15px;
+  color: grey;  
+}

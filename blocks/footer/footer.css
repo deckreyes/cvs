@@ -1,19 +1,20 @@
 footer {
   padding: 2rem;
   /*background-color: white;*/
-  background-color: rgb(38, 38, 38);
+  background-color: black;
   font-size: var(--body-font-size-s);
+  
 }
 
 footer img {
-  width: 150px;
-  height: 70px;
+  width: 500px;
+  height: auto;
 }
 
 footer .footerone {
-  text-indent: 300px;
+  text-indent: 100px;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 75%;
 
   display: flex;
@@ -25,45 +26,50 @@ footer .footerone {
   padding: 15px;
   gap: 1px;
 
-  border: 1px inset white;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  border-right: transparent;
+  
 }
 
 footer .footertwo {
-  text-indent: 300px;
+  text-indent: 100px;
   color: white;
-  font-size: 12px;
-  line-height: 75%;
-
+  position: relative;
+  font-weight: 500;
+  font-size: medium;
   display: flex;
-  align-items: flex-start; 
-  flex-direction: row; 
-  flex-wrap: nowrap; 
+  column-gap: 10px;
+  margin-right: 400px;
+  font-size: 15px;
 
   height: 100%;
   padding: 15px;
-  gap: 1px;
+
+
+  border: 1px inset white;
+  border-top: transparent;
+  border-left-color: transparent;
+  border-bottom-color: gray;
+  border-right: transparent;
 
 }
 
+footer .footertwo img {
+  width: 275px;
+  height: auto;
+}
+
 footer .footerthree {
-  text-indent: 300px;
+  text-indent: 100px;
   color: white;
   font-size: 12px;
 
   display: flex;
   align-items: flex-start; 
   flex-direction: row; 
-  flex-wrap: nowrap; 
+ 
 
-  height: 100%;
-  padding: 15px;
-  gap: 75px;  
+  
+  padding: 35px;
+  gap: 5px;  
 
-  border: 1px inset white;
-  border-left-color: transparent;
-  border-bottom-color: transparent;
-  border-right: transparent;
+
 }

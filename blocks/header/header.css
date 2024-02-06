@@ -15,7 +15,7 @@ header nav {
   align-items: center;
   gap: 0 2em;
   margin: auto;
-  max-width: 1264px;
+  max-width: 100%;
   height: var(--nav-height);
   padding: 0 1rem;
   font-family: var(--body-font-family);
@@ -45,6 +45,8 @@ header nav[aria-expanded="true"] {
   header nav[aria-expanded="true"] {
     min-height: 0;
     overflow: visible;
+    background: rgb(38, 38, 38);
+    color: white;
   }
 }
 
@@ -271,5 +273,20 @@ header nav .nav-sections ul > li > ul > li {
 
 /* tools */
 header nav .nav-tools {
-  grid-area: tools;
+  position: relative;
+  font-weight: 500;
+  font-size: medium;
+  display: flex;
+  column-gap: 50px;
+  margin-right: 200px;
+}
+
+header .nav-tools img {
+  width: 17px;
+  height: auto;
+}
+
+header .nav-sections img {
+  width: 17px;
+  height: auto;
 }
